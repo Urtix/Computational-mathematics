@@ -21,4 +21,5 @@ $u(x,y) = 1000 \cdot x^3 \cdot y - 2000 \cdot y^4 + 500 \cdot y^3 + x^2 \cdot y^
 $f(x,y) = 6000 \cdot x \cdot y + 2 \cdot y^3 + 6 \cdot x^2 \cdot y - 24000 \cdot y^2 + 3000 \cdot y$
 
 Были получены следующие результаты: 
+
 ![alt text](Result/res_table.png)
