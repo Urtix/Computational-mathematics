@@ -161,8 +161,8 @@ void initialize_f_u(double **u, double **f, int N, double h)
         {
             double x = i * h;
             double y = j * h;
-            u[i][j] = u1(i, j, N, x, y);
-            f[i][j] = f1(x, y);
+            u[i][j] = u6(i, j, N, x, y);
+            f[i][j] = f6(x, y);
         }
     }
 }
