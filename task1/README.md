@@ -20,7 +20,7 @@ $Threads$ = [1, 4]
 
 Проведем вычисления для 
 
-$ u(x,y) = 10 \cdot x^3 + 20 \cdot y^3 $
+$u(x,y) = 10 \cdot x^3 + 20 \cdot y^3 $
 
 $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 
