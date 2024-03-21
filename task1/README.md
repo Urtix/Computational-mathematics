@@ -11,6 +11,10 @@
 
 Вычислительная машина: ОС Ubuntu 20.04.4, OpenMP версии 4.5, процессор 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz, максимальное число потоков: 4.
 
+Доверительный интервал = среднее значение +- погрешность (уровень доверия 95%)
+
+Погрешность = уровень доверия $\times$ Дисперсия / квадратный корень из числа эксперементов 
+
 Эксперимент проводился с нескольким числом сеток с разными размерами:
 
 $N$ = [100, 300, 500, 1000, 3000]
@@ -35,6 +39,7 @@ $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 
     
 ![alt text](Result/res_f2/average_f2.png)
+![alt text](Result/res_f2/confidence_interval_f2.png)
 
 По ним можно увидеть что если сетка имеет размер 100, то на 1 потоке вычисления происходят быстрее, чем на 4 почти в 2 раза. В остальных случаях с каждым увеличение размера сетки увеличивается и ускорение работы на 4 потоках.
 
@@ -59,6 +64,7 @@ $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 Первое увеличение степени дало следующий результат:
 
 ![alt text](Result/res_f5/average_f5.png)
+![alt text](Result/res_f5/confidence_interval_f5.png)
 ![alt text](Result/res_f5/boost_f5.png)
 
 (Результаты в Result/res_f5)
@@ -68,6 +74,7 @@ $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 Второе увеличение степени:
 
 ![alt text](Result/res_f6/average_f6.png)
+![alt text](Result/res_f6/confidence_interval_f6.png)
 ![alt text](Result/res_f6/boost_f6.png)
 
 (Результаты в Result/res_f6)
@@ -77,6 +84,7 @@ $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 Третье увеличение степени:
 
 ![alt text](Result/res_f7/average_f7.png)
+![alt text](Result/res_f7/confidence_interval_f7.png)
 ![alt text](Result/res_f7/boost_f7.png)
 
 (Результаты в Result/res_f7)
@@ -96,6 +104,7 @@ $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 Первое увеличение констант дало следующий результат: 
 
 ![alt text](Result/res_f3/average_f3.png)
+![alt text](Result/res_f3/confidence_interval_f3.png)
 ![alt text](Result/res_f3/boost_f3.png)
 
 (Результаты в Result/res_f3)
@@ -105,6 +114,7 @@ $f(x,y) = 60 \cdot x + 120 \cdot y^2 $
 Второе увеличение констант:
 
 ![alt text](Result/res_f4/average_f4.png)
+![alt text](Result/res_f4/confidence_interval_f4.png)
 ![alt text](Result/res_f4/boost_f4.png)
 
 (Результаты в Result/res_f4)
@@ -125,6 +135,7 @@ $f(x,y) = 6000 \cdot x \cdot y + 2 \cdot y^3 + 6 \cdot x^2 \cdot y - 24000 \cdot
 Были получены следующие результаты: 
 
 ![alt text](Result/res_f1/average_f1.png)
+![alt text](Result/res_f1/confidence_interval_f1.png)
 ![alt text](Result/res_f1/boost_f1.png)
 
 (Результаты в Result/res_f1)
